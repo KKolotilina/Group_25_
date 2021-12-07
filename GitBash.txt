@@ -1,0 +1,206 @@
+JSON
+ 1. Создать внешний репозиторий c названием JSON -  https://github.com/KKolotilina?tab=repositories -- Create a new repository
+ 2. Клонировать репозиторий JSON на локальный компьютер - git clone ссылка на репозиторий
+ 3. Внутри локального JSON создать файл “new.json” - touch "new.json"
+ 4. Добавить файл под гит - git add "new.json"
+ 5. Закоммитить файл -  git commit -m "JSON"
+ 6. Отправить файл на внешний GitHub репозиторий - git push
+ 7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON/
+    vim "new.json"
+	{
+		"name": "Kolotilina Karina",
+		"age": 31,
+		"pets": 1,
+		"salary": "1000$"
+	
+	}
+	ESC :wq
+ 8. Отправить изменения на внешний репозиторий - git status
+												 git add "new.json"
+												 git commit -m "new.json"
+												 git push
+ 9. Создать файл preferences.json - touch "preferences.json"
+ 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+     vim "preferences.json"
+	 {
+	   "favorite movie": "The Fast and the Furious",
+	   "favorite show": "Friends",
+	   "favorite food": "Doner",
+	   "favorite season": "Summer",
+	   "visit country": "USA"
+	
+	 }
+	 ESC :wq
+ 11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON - touch "sklls.json"
+     vim "sklls.json"
+	 {
+		"GitBash": "True",
+		"Terminal Linux": "True",
+		"Postman": "True",
+		"SQL": "True",
+		"Jmeter": "True",
+		"DevTools": "True",
+		"Mobile_testing":"True"
+	 
+	 }
+     ESC :wq
+ 12. Отправить сразу 2 файла на внешний репозиторий - git add .
+													  git commit -am "Json"
+													  git push
+ 13. На веб интерфейсе создать файл bug_report.json - в репозитории кликнуть Add file
+ 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе -  добавить Add File-Create new file "new_bug_report.json"
+ 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON  - открыть файл и кликнуть "Edit this file"
+{	
+	"ID": "01",
+	"Title": "Не открывается карточка товара Гирлянда Uniel 50 led с главной страницы",
+	"Reporter": "Kolotilina_Karina",
+	"Assigned": "Orlov_Alexsander",
+	"Type": "bug",
+	"Status": "new",
+	"Severity": "S2",
+	"Priority": "P1",
+	"Browser": "Google Chrome 96.0.4664.45",
+	"Description": "Невозможно открыть и перейти в карточку товара",
+	"Steps to reproduce": [
+					{ 
+					  "1_step": "Открыть главную страницу www.buy-la-la.com",
+					  "2_step": "Кликнуть на товар Гирлянда Uniel 50 led"
+					  }
+					 ]
+    "Actual_result": "Открылась карточка товара гирлянда Гирлянда Uniel 50 led",
+	"Expected_result": "Карточка товара не открылась, произошло обновление главной страницы"
+
+}
+ 
+ 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе - добавить Commit changes "bug_report_01" 
+ 17. Синхронизировать внешний и локальный репозиторий JSON - git pull
+
+
+XML
+1. Создать внешний репозиторий c названием XML - Create a new repository
+2. Клонировать репозиторий XML на локальный компьютер - git clone ссылка на репозиторий
+3. Внутри локального XML создать файл “new.xml” - touch “new.xml”
+4. Добавить файл под гит - git add “new.xml”
+5. Закоммитить файл - git commit -m "XML"
+6. Отправить файл на внешний GitHub репозиторий - git push
+7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML
+vim “new.xml”
+    <about me>
+        <name>Kolotilina Karina</name>
+         <age>31</age>
+         <pets>1</pets>
+        <salary>1000$</salary>
+    </about me>
+ ESC :wq
+8. Отправить изменения на внешний репозиторий - git add "new.xml"
+                                                git commit -m "XML"
+												git push
+9. Создать файл preferences.xml - touch "preferences.xml"
+10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML
+vim ""preferences.xml"
+    <my preferences>
+    <favorite movie>The Fast and the Furious</favorite movie>
+    <favorite show>Friend</favorite show>
+    <favorite food>Doner</favorite food>
+    <favorite season>summer</favorite season>
+    <visit country>USA</visit country>
+    </my preferences>
+ ESC :wq
+11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML - touch "skills.xml"
+vim "skills.xml"
+    <skills>
+       <GitBash>True</GitBash>
+		<Terminal Linux>True</Terminal Linux>
+		<Postman>True</Postman>
+		<SQL>True</SQL>
+		<Jmeter>True</Jmeter>
+		<DevTools>True</DevTools>
+		<Mobile_testing>True</Mobile_testing>
+    </skills>
+12. Сделать коммит в одну строку - git commit -am "XML"
+13. Отправить сразу 2 файла на внешний репозиторий - git push
+14. На веб интерфейсе создать файл bug_report.xml - в репозитории кликнуть Add file
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе - добавить Add File-Create new file "new_bug_report.xml"
+16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML - открыть файл и кликнуть "Edit this file" 
+<bug_report_02>
+    <ID>02</ID>
+    <Title>Отсутсвуют контакты магазина на странице Контакты</Title>
+    <Reporter>Kolotilina_Karina</Reporter>
+    <Assigned>Orlov_Alexsander</Assigned>
+    <Type>bug</Type>
+	<Status>new</Status>
+	<Severity>S1</Severity>
+	<Priority>P1</Priority>
+	<Browser>Google Chrome 96.0.4664.45</Browser>
+	<Description>Невозможно получить контакты магазина на станице контакты</Description>
+	  <Steps to reproduce>
+					 <1_step>Открыть главную страницу www.buy-la-la.com</1_step>
+					 <2_step>В верхнем правом углу нажать Контакты</2_step>
+	  </Steps to reproduce>
+	<Actual_result>Открылась страница контактов, но сами контакты отсутвуют на странице (адрес, телефон, электронная почта)</Actual_result>
+	<Expected_result>Открылась страница контактов, все контакты указаны</Expected_result>
+</bug_report_02>
+	
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе - Update bug_report_02
+18. Синхронизировать внешний и локальный репозиторий XML - git pull 
+
+TXT
+1. Создать внешний репозиторий c названием TXT - Create a new repository
+2. Клонировать репозиторий TXT на локальный компьютер git clone ссылка на репозиторий
+3. Внутри локального TXT создать файл “new.txt” - touch “new.txt”
+4. Добавить файл под гит - git add .
+5. Закоммитить файл git commit -m "TXT"
+6. Отправить файл на внешний GitHub репозиторий - git push
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT
+vim “new.txt”
+   ФИО - Колотилина Карина
+   Возраст - 31 год
+   Домашние животные - 1
+   Желаемая з/п - 1000$
+ ESC :wq
+8. Отправить изменения на внешний репозиторий - git add .
+												git commit - m "TXT"
+												git push
+9. Создать файл preferences.txt - touch "preferences.txt"
+10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT
+vim "preferences.txt"
+Любимый фильм - "Форсаж"
+Любимый сериал - "Друзья"
+Любимая еда - Донер
+Любимое время года - Лето
+Страна в которую хочу поехать - США
+ESC :wq
+
+11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT - touch "skills.txt"
+vim "skills.txt"
+Скиллы:
+1. GitBash
+2. Linux
+3. Postman
+4. DevTools
+5. SQL 
+6. Jmeter 
+12. Сделать коммит в одну строку - git commit -am "txt"
+13. Отправить сразу 2 файла на внешний репозиторий - git push
+14. На веб интерфейсе создать файл bug_report.txt - add file bug_report.txt
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе - Create bug_report.txt
+16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT - Edit this File
+Bug_report_03
+ID: 03
+Title: Отсутсвуют контакты магазина на странице Контакты
+Reporter: Колотилина К.
+Assigned: Орлов А.
+Type: новый
+Status: bug
+Severity: S1
+Priority: P1
+Browser:Google Chrome 96.0.4664.45
+Description:Невозможно получить контакты магазина на станице контакты
+Steps to reproduce:
+  1)Открыть главную страницу www.buy-la-la.com
+  2)В верхнем правом углу нажать Контакты
+Actual_result: Открылась страница контактов, но сами контакты отсутвуют на странице (адрес, телефон, электронная почта)
+Expected_result: Открылась страница контактов, все контакты указаны
+
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе - Update
+18. Синхронизировать внешний и локальный репозиторий TXT - git pull 
