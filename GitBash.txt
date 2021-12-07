@@ -23,11 +23,11 @@ JSON
  10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
      vim "preferences.json"
 	 {
-	   "favorite movie": "The Fast and the Furious",
-	   "favorite show": "Friends",
-	   "favorite food": "Doner",
-	   "favorite season": "Summer",
-	   "visit country": "USA"
+	   "favorite_movie": "The Fast and the Furious",
+	   "favorite_show": "Friends",
+	   "favorite_food": "Doner",
+	   "favorite_season": "Summer",
+	   "visit_country": "USA"
 	
 	 }
 	 ESC :wq
@@ -61,7 +61,7 @@ JSON
 	"Priority": "P1",
 	"Browser": "Google Chrome 96.0.4664.45",
 	"Description": "Невозможно открыть и перейти в карточку товара",
-	"Steps to reproduce": [
+	"Steps_to_reproduce": [
 			{ 
 			 "1_step": "Открыть главную страницу www.buy-la-la.com",
 			"2_step": "Кликнуть на товар Гирлянда Uniel 50 led"
@@ -99,11 +99,11 @@ vim “new.xml”
 10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML
 vim ""preferences.xml"
     <my_preferences>
-    <favorite_movie>The Fast and the Furious</favorite movie>
-    <favorite_show>Friend</favorite show>
-    <favorite_food>Doner</favorite food>
-    <favorite_season>summer</favorite season>
-    <visit_country>USA</visit country>
+    <favorite_movie>The Fast and the Furious</favorite_movie>
+    <favorite_show>Friend</favorite_show>
+    <favorite_food>Doner</favorite_food>
+    <favorite_season>summer</favorite_season>
+    <visit_country>USA</visit_country>
     </my_preferences>
  ESC :wq
 11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML - touch "skills.xml"
